@@ -5,7 +5,7 @@ curl -L ${tarballUrl} --output tmuxinator.tar.gz
 sha256=$(sha256sum tmuxinator.tar.gz | awk '{print $1}')
 rm tmuxinator.tar.gz
 
-cat > $FORMULAS_DIR/tmuxinator.rb <<EOF
+cat > $FORMULA_DIR/tmuxinator.rb <<EOF
 class Tmuxinator < Formula
   desc "Install Tmuxinator as Homebrew formulae"
   homepage "https://github.com/tmuxinator/tmuxinator"
