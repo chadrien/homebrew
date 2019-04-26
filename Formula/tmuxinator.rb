@@ -5,8 +5,6 @@ class Tmuxinator < Formula
   sha256 "92e26f25d821f1530e12c8b10d1f83616bf8e37b49b3d327f80cba27ebcb572f"
   head "https://github.com/tmuxinator/tmuxinator.git"
 
-  depends_on "ruby"
-
   bottle :unneeded
 
   def install
